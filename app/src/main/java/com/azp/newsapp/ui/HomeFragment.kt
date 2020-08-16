@@ -83,7 +83,7 @@ class HomeFragment : Fragment(), RandomAdapter.ClickListener, CategoryAdapter.Cl
         super.onResume()
         randomViewmodel.loadRandom()
         categoryViewmodel.loadCategory()
-        countryViewmodel.loadCountry()
+//        countryViewmodel.loadCountry()
     }
 
 
